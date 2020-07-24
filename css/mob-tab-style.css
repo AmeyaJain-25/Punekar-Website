@@ -1,0 +1,461 @@
+@media only screen and (max-width: 768px){
+
+
+    .logo img{
+        margin-left: 1vmin;
+    }
+
+    header .navbar-brand{
+        margin-left: -60vmin;
+    }
+
+
+
+    header .col-md-7{
+        margin-top: -5vmin;
+    }
+
+
+    .section-1 .row .col-md-6 .wada img{
+        margin-top: 15vmin;
+    }
+
+
+    .section-1 .row .col-md-6 .panel-box{
+        padding: 4vmin;
+        font-size: 1.1em;
+    }
+
+    .section-1 .row .col-md-6 .panel-box h1{
+        font-size: 1.2em;
+    }
+
+
+
+    .section-2 .cover{
+        background-size: 140vmin;
+        background-position: -20vmin -0vmin;
+    }
+
+    .aboutus{
+        margin-top: -2vmin;
+    }
+
+
+
+
+    /* history-start */
+
+    main .container-fluid .backgroundImage{
+        background-position: -150vmin;
+    }
+
+    
+    main .container-fluid .slider-content .text-content-1{
+        font-size: .8em;
+        line-height: 3.6vmin;
+    }
+
+    /* history-end */
+
+
+
+    /* culture-page-start */
+    
+    header img{
+        padding: 0;
+    }
+
+    header .carousel img{
+        height: 400px;
+    }
+
+
+    
+
+    /* culture-page-end */
+
+
+
+    
+
+
+    /* food-page-start */
+
+
+    main .eatables .col-lg-7 h2{
+        text-align: left;
+    }
+
+    /* food-page-end */
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:425px){
+
+    .logo img{
+        width: 4em;
+        height: 4em;
+        margin-left: 1vmin;
+    }
+
+    header .navbar-brand{
+        margin-left: -5vmin;
+        font-size: 3em;
+    }
+
+
+    header .row .col-md-7{
+        margin-left: 30vmin;
+    }
+
+
+    header .container .col-md-7 button{
+        font-size: .8em;
+    }    
+
+    header .row .col-md-5 img{
+        padding-left: 2vmin;
+    }
+
+    .section-1 .row .col-md-6 .wada{
+        margin-left: -2vmin;
+        margin-bottom: 5vmin;
+    }
+
+
+    .section-1 .row .col-md-6 .panel-box{
+        margin-right: 5vmin;
+        
+    }
+
+
+    .section-2 .cover{
+        margin-top: 60vmin;
+    }
+
+    .section-2 .cover .content h1{
+        font-size: 3em;
+    }
+
+    .numbers .rect{
+        width: 9rem;
+        height: 7rem;
+    }
+
+    .numbers .rect h1{
+        font-size: 2em;
+        padding-bottom: 0;
+    }
+
+    .numbers .rect p{
+        font-size: 1.2em;
+    }
+
+    .numbers{
+        margin-top: -9vmin;
+    }
+
+
+
+
+
+    /* history-start */
+
+    
+    main .container-fluid .backgroundImage{
+        background-position: -250vmin;
+        height: 1250px;
+    }
+
+    main .container-fluid .slider-content .text-content-1{
+        font-size: .8em;
+        line-height: 3vmin;
+        
+    }
+
+
+    /* history-end */
+
+
+    /* culture-page-start */
+    header .carousel img{
+        height: 320px;
+    }
+
+
+
+    main .main-content{
+
+        font-size: .9em;
+    }
+
+
+
+    main .culture-grid{
+
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "content-1"
+        "sidebar"
+        "content-2"
+        "content-3"
+        "content-4"
+        "content-5"
+        /* "content-6"
+        "content-7" */;
+
+    }
+
+
+    main .gallery{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "img1" 
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6" 
+        "img7" 
+        "img8"
+        "img9" 
+        "img10" 
+        "img11" 
+        "img12"
+        "img13" 
+        "img14" 
+        "img15" 
+        "img16";
+    
+    
+    }
+    
+
+
+    /* culture-page-end */
+
+
+
+    /* about-page-start */
+
+    .about-page div{
+        font-size: 2.5em;
+    }
+
+    .about-page h1{
+        font-size: 1.5em;
+    }
+
+    .about-page .connect a{
+        margin: 0vmin;
+        padding: 1.3vmin;
+    }
+
+
+    /* about-page-end */
+
+
+}
+
+
+@media only screen and (max-width:375px){
+
+
+
+    
+    .section-1 .row .col-md-6 .wada{
+        margin-left: 5vmin;
+        
+    }
+
+
+    .section-1 .row .col-md-6 .panel-box{
+        margin-right: -2vmin;
+        
+    }
+
+
+    
+    main .container-fluid .backgroundImage{
+        background-position: -250vmin;
+    }
+
+
+
+
+
+
+
+    /* history-start */
+
+    
+    main .container-fluid .backgroundImage{
+
+        background-position: -450vmin;
+        height: 1700px;
+    }
+
+    main .container-fluid .slider-content .text-content-1{
+        font-size: .9em;
+        line-height: 3.5vmin;
+        
+        
+    }
+
+
+    .aboutus-history{
+        padding-top: 20vmin;
+    }
+    
+
+    /* history-end */
+
+
+
+
+
+
+    /* culture-page-start */
+    header .carousel img{
+        height: 280px;
+    }
+
+
+    /* culture-page-end */
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:320px){
+
+    .logo img{
+        width: 3em;
+        height: 3em;
+    }
+
+    header .navbar-brand{
+        font-size: 2.4em;
+    }
+
+
+
+
+
+    header .row .col-md-7{
+        margin-left: 25vmin;
+    }
+
+    
+    main .container-fluid .backgroundImage{
+        background-position: -300vmin;
+    }
+
+
+    
+
+
+    /* culture-page-start */
+    header .carousel img{
+        height: 250px;
+    }
+
+
+    /* culture-page-end */
+
+    
+
+
+    /* historypage-start */
+
+
+    .aboutus-history{
+        padding-top: 30vmin;
+    }
+    
+
+    main .container-fluid .backgroundImage{
+
+        background-position: -450vmin;
+        height: 2000px;
+    }
+
+    main .container-fluid .slider-content .text-content-1{
+        font-size: .9em;
+        line-height: 4.3vmin;
+        
+        
+    }
+    /* historypage-end */
+
+
+
+    /* food-page-start */
+    main .container .food-head h1{
+        font-size: 2em;
+    }
+
+    main .eatables img{
+        margin-left: -10vmin;
+    }
+
+    /* food-page-end */
+
+
+    /* religious-places-start */
+
+    .religious-container .religious-main-part h1{
+        font-size: 2em;
+    }
+
+
+    /* religious-places-end */
+
+
+
+    /* about-page-start */
+
+
+    .about-page h1{
+        font-size: 1.2em;
+    }
+
+    /* about-page-end */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

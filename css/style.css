@@ -1,0 +1,1450 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Grenze+Gotisch&family=Iceland&family=Inconsolata&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Kaushan+Script&family=Marck+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bad+Script&family=Caveat&family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cairo&family=Concert+One&family=Lora:ital,wght@1,500&family=Montserrat+Alternates&family=Playfair+Display&family=Titillium+Web&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header section{
+    overflow-x: hidden;
+}
+
+
+:root{
+    --font-1: 'Fondamento', cursive;
+    --font-2: 'Grenze Gotisch', cursive;
+    --font-3: 'Iceland', cursive;
+    --font-4: 'Inconsolata', monospace;
+    --font-5: 'Kalam', cursive;
+    --font-6: 'Pacifico', cursive;
+    --font-7: 'Architects Daughter', cursive;
+    --font-8: 'Dancing Script', cursive;
+    --font-9: 'Kaushan Script', cursive;
+    --font-10: 'Marck Script', cursive;
+    --font-11: 'Cedarville Cursive', cursive;
+    --font-12: 'Tangerine', cursive;
+    --font-13: 'Cormorant Upright', serif;
+    --font-14: 'Paprika', cursive;
+    --font-15: 'Audiowide', cursive;
+    --font-16: 'Bad Script', cursive;
+    --font-17: 'Caveat', cursive;
+    --font-18: 'Just Another Hand', cursive;
+    --font-19: 'Alegreya', serif;
+    --font-20: 'Cairo', sans-serif;
+    --font-21: 'Concert One', cursive;
+    --font-22: 'Lora', serif;
+    --font-23: 'Montserrat Alternates', sans-serif;
+    --font-24: 'Playfair Display', serif;
+    --font-25: 'Titillium Web', sans-serif;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #c85103, #f14504, #FFB80A, #ffc63a);
+    --bggradient1: linear-gradient(to bottom, #196F3D, #229954, #27AE60, #229954);
+    --light-gray: rgba(255, 255, 255, 0.877)
+}
+
+
+
+/* header */
+
+
+header .active-page{
+    font-family: var(--font-5);
+    font-weight: bold;
+    color: darkred;
+}
+
+.logo img{
+    width: 6em;
+    height: 6em;
+    margin-left: 5vmin;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+
+.icon-menu-bar{
+    margin-right: 1vmin;
+    font-size: 2em;
+    color: #660000;
+}
+
+.icon-menu-bar:hover{
+    color: #FFB80A;
+}
+
+
+
+
+
+
+header a{
+    font-family: var(--font-3);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+}
+
+header{
+    background: royalblue;
+    background: var(--bggradient);
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: peru;
+    min-width: 160px;
+
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a{
+    color: black;
+    text-align: center;
+    padding: 12px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover{
+    background: var(--bggradient);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+header .nav-item:last-child{
+    padding-right: 7em;
+}
+
+
+header .nav-item{
+    padding: 0.7em;
+}
+
+
+header .navbar-brand{
+    padding-left: 1rem;
+    font-size: 3.5em;
+    color: maroon;
+}
+
+header .navbar-brand:hover{
+    color: white;
+}
+
+
+header .nav-link:hover{
+    color: white;
+}
+
+
+header .row .col-md-5{
+    padding: 10vmin 2vmin 20vmin 2vmin;
+}
+
+header .row .col-md-5 img{
+    width: 90%;
+}
+
+
+header .row .col-md-7{
+    padding: 15vmin 1vmin;
+    padding-right: 30vmin;
+    font-family: var(--font-2);
+}
+
+
+header .container .col-md-7 h6{
+    padding: 2vmin;
+    letter-spacing: 0.5px;
+    font-size: 5vmin;
+}
+
+
+header .container .col-md-7 h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
+header .container .col-md-7 p{
+    padding: 2vmin;
+    font-size: 2em;
+}
+
+
+header .container .col-md-7 .btn-primary{
+    font-weight: bold;
+    padding: 2vmin;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: darkred;
+    border-color: orangered;
+    transition: all .5s ease-in;
+    color: orange;
+    font-family: 25;
+    font-size: 1.5em;
+    text-transform: none;
+}
+
+header .container .col-md-7 .btn-primary:hover{
+    color: crimson;
+    background-color: white;
+
+}
+
+
+
+/* section-1 */
+
+.section-1{
+    padding: 5vmin 0;
+}
+
+
+.section-1 .More-about-pune{
+    margin-top: 18vmin;
+    color: darkgoldenrod;
+    font-size: 1.5em;
+    background: cornsilk;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 8vmin;
+    padding: 5vmin 7vmin;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-1);
+    
+}
+
+
+.section-1 .row{
+    padding-bottom: 5vmin;
+}
+
+.section-1 .row .col-md-6 .wada img{
+    width: 70vmin;
+    height: 60vmin;
+    border-radius: 20px;
+}
+
+
+
+
+
+.section-1 .row .col-md-6 .panel-box{
+    background: whitesmoke;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-1);
+
+}
+
+.section-1 .row .col-md-6 .panel-box{
+    padding: 7vmin;
+    
+
+}
+
+.section-1 .row .col-md-6 .panel-box h1{
+    font-weight: bold;
+    color: sienna;
+}
+
+
+.section-1 .row .col-md-6 .panel-box p{
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+/* history-main-start */
+
+
+
+
+main .container-fluid .backgroundImage{    
+    width: 100%;
+    height: 1000px;
+    background-image: url("../Images/shivajiMaharaj2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+main .container-fluid .slider-content .text-content-1{
+    color: whitesmoke;
+    font-family: var(--font-7);
+    padding: 4vmin;
+    font-size: 1em;
+    line-height: 4vmin;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* history-main-end */
+
+
+
+
+
+/* section-2  */
+
+
+.section-2 .cover{
+    background: url(../Images/puneDesign.jpg) no-repeat;
+    width: 100%;
+    height: 40vmin;
+    background-size: 200vmin;
+    background-position: 10vmin -12vmin;
+    position: relative;
+}
+
+
+
+.section-2 .cover .content{
+    background: rgba(0, 0, 200, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 3vmin;
+}
+
+
+.section-2 .cover .content h1{
+    font-family: var(--font-5);
+    font-size: 5em;
+    color: maroon;
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 12rem;
+    height: 7rem;
+    padding: 1vmin;
+    border-radius: .5em;
+    margin: 1rem;
+    box-shadow: 5px 1px 50px 1px rgba(255, 50, 0, 0.5);
+
+}
+
+
+.numbers{
+    margin-top: -6vmin;
+}
+
+.numbers .rect h1{
+    font-size: 3rem;
+    color: darkgreen;
+    font-family: var(--font-3);
+}
+
+
+.numbers .rect p{
+    font-size: 1.5rem;
+    font-family: var(--font-3);
+    color: tomato;
+}
+
+
+
+/* footer */
+
+
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    margin-top: 5vmin;
+    padding: 10vmin 10vmin;
+}
+
+
+footer p > span{
+    color: crimson;
+}
+
+footer .column{
+    margin-top: 5vmin;
+
+}
+
+
+footer .column a{
+    color: #FFB80A;
+    padding-left: 1.8em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+/* culutre-page-start */
+
+header .carousel img{
+    height: 650px;
+}
+
+main .main-content{
+    margin: .5rem 0;
+    padding: 5vmin 5vmin;
+    background-color: orangered;
+    font-family: var(--font-9);
+    color: white;
+    font-size: 1.2em;
+    border-top-left-radius: 15vmin;
+    border-bottom-right-radius: 15vmin;    
+}
+
+
+
+main .festivals{
+    font-family: var(--font-5);
+    color: chocolate;
+    font-size: 4rem;
+    border-top: .1vmin solid crimson;
+    border-bottom: .1vmin solid crimson;
+    border-radius: 25vmin;
+}
+
+
+
+
+
+
+main .culture-grid{
+    padding: 1rem;
+    display: grid;
+    height: auto;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 3fr 2fr 3fr 2fr;
+
+    grid-template-areas: 
+    "sidebar content-1 content-1 content-1"
+    "sidebar content-3 content-2 content-2"
+    "sidebar content-3 content-2 content-2"
+    "content-4 content-4 content-5 content-5"
+    /* "content-6 content-7 content-7 content-7"*/;
+
+
+}
+
+
+
+main .sidebar{
+    grid-area: sidebar;
+    background-color: yellow;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    padding: 5vmin;
+    border-radius: 2rem;
+    color: orangered;
+    box-shadow: 0px .5px 15px 0px rgba(255, 0, 0, 0.6);
+    
+
+}
+
+
+main .content-1{
+    grid-area: content-1;
+    background-color: coral;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    padding: 5vmin;
+    border-radius: 2rem;
+    color: darkred;
+    box-shadow: 0px .5px 15px 0px rgba(153, 0, 0, 0.6);
+
+}
+
+main .content-2{
+    grid-area: content-2;
+    background-color: lightgreen;
+    color: green;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    border-radius: 2rem;
+    padding: 5vmin;
+    box-shadow: 0px .5px 15px 0px rgba(0, 102, 51, 0.6);
+}
+
+main .content-3{
+    grid-area: content-3;
+    background-color: cadetblue;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    padding: 5vmin;
+    border-radius: 2rem;
+    color: navy;
+    box-shadow: 0px .5px 15px 0px rgba(0, 0, 102, 0.6);
+    
+}
+
+main .content-4{
+    grid-area: content-4;
+    background-color: lightyellow;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    padding: 5vmin;
+    border-radius: 2rem;
+    color: gray;
+    box-shadow: 0px .5px 15px 0px rgba(32, 32, 32, 0.6);
+}
+
+main .content-5{
+    grid-area: content-5;
+    background-color: coral;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    border-radius: 2rem;
+    padding: 5vmin;
+    box-shadow: 0px .5px 15px 0px rgba(255, 0, 0, 0.6);
+}
+/* 
+main .content-6{
+    grid-area: content-6;
+    background-color: cyan;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    border-radius: 2rem;
+    padding: 5vmin;
+    box-shadow: 0px .5px 15px 0px rgba(0, 51, 102, 0.6);
+}
+
+main .content-7{
+    grid-area: content-7;
+    background-color: darkblue;
+    font-family: var(--font-8);
+    font-size: 1.2em;
+    border-radius: 2rem;
+    padding: 5vmin;
+    box-shadow: 0px .5px 15px 0px rgba(0, 0, 51, 0.6);
+}
+ */
+
+
+
+
+
+
+main .gallery{
+    padding: 1rem;
+    display: grid;
+    height: auto;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12"
+    "img13 img14 img15 img16";
+
+
+}
+
+
+
+main .gallery img{
+    width: 100%;
+    height: 35vmin;
+    border-radius: 5vmin;
+}
+
+
+
+main .gallery .img-1{
+    grid-area: img1;
+    
+}
+
+
+main .gallery .img-2{
+    grid-area: img2;
+    
+}
+
+
+main .gallery .img-3{
+    grid-area: img3;
+}
+
+
+main .gallery .img-4{
+    grid-area: img4;
+}
+
+
+main .gallery .img-5{
+    grid-area: img5;
+    
+}
+
+
+main .gallery .img-6{
+    grid-area: img6;
+}
+
+
+main .gallery .img-7{
+    grid-area: img7;
+}
+
+
+main .gallery .img-8{
+    grid-area: img8;
+}
+
+main .gallery .img-9{
+    grid-area: img9;
+    
+}
+
+
+main .gallery .img-10{
+    grid-area: img10;
+    
+}
+
+
+main .gallery .img-11{
+    grid-area: img11;
+}
+
+
+main .gallery .img-12{
+    grid-area: img12;
+}
+
+
+main .gallery .img-13{
+    grid-area: img13;
+    
+}
+
+
+main .gallery .img-14{
+    grid-area: img14;
+}
+
+
+main .gallery .img-15{
+    grid-area: img15;
+}
+
+
+main .gallery .img-16{
+    grid-area: img16;
+}
+
+
+
+
+
+
+
+
+
+
+/* culutre-page-end */
+
+
+
+
+
+/* food-page-start */
+
+
+main .food-page{
+    background-color: rgba(32, 32, 32, 0.3);
+    margin-top: 5vmin;
+    border-radius: 5vmin;
+
+}
+
+
+
+main .container .food-head{
+    text-align: center;
+    padding: 5vmin 0 10vmin 0;
+    font-family: var(--font-13);
+    font-weight: 600;
+    font-size: 2.3em;
+    
+}
+
+
+main .container .food-head h1{
+    font-size: 3em;
+    font-family: var(--font-9);
+    color: teal;
+}
+
+main .container .food-head p{
+    color: firebrick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main .eatables .row{
+    padding-bottom: 2vmin;
+}
+
+main .eatables img{
+    padding: 3vmin;
+    border-radius: 8vmin;
+    width: 20em;
+    height: 15em;
+}
+
+
+
+
+main .eatables .col-lg-7{
+    font-family: var(--font-14);
+    font-size: 1.2em;
+}
+
+main .eatables .col-lg-7 h2{
+    text-align: center;
+    color: darkred;
+}
+
+main .eatables .col-lg-7 h4{
+    color: brown;
+}
+
+
+
+main .eatables .col-lg-7 p{
+    color: midnightblue;
+}
+
+
+
+
+/* food-page-end */
+
+
+
+
+
+
+/* about-page-start */
+.about-page{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+
+.about-page div{
+    padding: 7vmin;
+    text-align: center;
+    font-family: var(--font-23);
+    font-size: 3em;
+    color: darkslategrey;
+}
+
+
+.about-page h1{
+    padding-top: 15vmin;
+    font-size: 2em;
+    color: midnightblue;
+    text-transform: uppercase;
+}
+
+
+.about-page h3, .about-page h2{
+    color: mediumseagreen;
+    font-size: 1.5em;
+}
+
+
+
+
+.about-page .connect a{
+    margin: 10vmin 2vmin;
+    padding: 10px;
+    font-size: 40px; 
+    color: #2E4053;
+
+}
+
+.about-page .connect a:hover{
+    color: #FBFCFC;
+    text-decoration: none;
+}
+
+
+
+/* about-page-end */
+
+
+
+
+/* historic-page-start */
+
+
+
+.historic-container .historic-main-part{
+    background-color: rgba(204, 102, 0);
+    border-radius: 10px;
+    margin: 5vmin 0;
+}
+
+
+.historic-container .historic-main-part{
+    padding: 5vmin;
+    font-family: var(--font-25);
+    font-size: 1.7em;
+    color: skyblue;
+}
+
+.historic-container .historic-main-part h1{
+    font-size: 2.5em;
+    font-family: var(--font-21);
+    color: navy;
+}
+
+
+
+.historic-container .box{
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+    border: 2px solid crimson;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.historic-container .box:hover{
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.historic-container .historic-1{
+    background: url('../Images/sinhagad-fort1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.historic-container .historic-2{
+    background: url('../Images/shaniwarWada1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.historic-container .historic-3{
+    background: url('../Images/agakhan-palace.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-4{
+    background: url('../Images/shivneri-fort.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-5{
+    background: url('../Images/vishrambaug-wada.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-6{
+    background: url('../Images/tribal-museum.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.historic-container .historic-7{
+    background: url('../Images/mahatma-phule-museum.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-8{
+    background: url('../Images/nana-wada.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-9{
+    background: url('../Images/bhide-wada.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-10{
+    background: url('../Images/lohagad-fort.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-11{
+    background: url('../Images/pataleshwar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-12{
+    background: url('../Images/lal-mahal.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-13{
+    background: url('../Images/shinde-chatri.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-14{
+    background: url('../Images/shivaji-bridge.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.historic-container .historic-15{
+    background: url('../Images/national-war-museum.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.historic-container .box span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    font-size: 1.5em;
+    background-color: #000;
+    opacity: .8;
+    color: white;
+    
+}
+
+
+/* historic-page-end */
+
+
+
+
+
+/* religious-page-start */
+
+
+.religious-container .religious-main-part{
+    background-color: sandybrown;
+    border-radius: 10px;
+    margin: 5vmin 0;
+}
+
+
+.religious-container .religious-main-part{
+    padding: 5vmin;
+    font-family: var(--font-23);
+    font-size: 1.7em;
+    color: slateblue;
+}
+
+.religious-container .religious-main-part h1{
+    font-size: 2.5em;
+    font-family: var(--font-23);
+    color: yellow;
+}
+
+
+
+.religious-container .box{
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+    border: 2px solid goldenrod;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.religious-container .box:hover{
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.religious-container .religious-1{
+    background: url('../Images/dagdusheth1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.religious-container .religious-2{
+    background: url('../Images/iskcon.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.religious-container .religious-3{
+    background: url('../Images/katraj-jain-temple.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-4{
+    background: url('../Images/saras-baug.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-5{
+    background: url('../Images/kasba-peth.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-6{
+    background: url('../Images/chaturshringhi.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-7{
+    background: url('../Images/akshardham.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-8{
+    background: url('../Images/parvati-hill.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-9{
+    background: url('../Images/hazrat-dargah.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-10{
+    background: url('../Images/dnyaneshwar-maharaj-samadhi.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-11{
+    background: url('../Images/jm-temple.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-12{
+    background: url('../Images/kalash-mandir.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-13{
+    background: url('../Images/gurudwara.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-14{
+    background: url('../Images/ganesha-temple.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-15{
+    background: url('../Images/bhuleshwar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-16{
+    background: url('../Images/pratishirdi.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-17{
+    background: url('../Images/patricks-cathedral.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.religious-container .religious-18{
+    background: url('../Images/baneshwar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.religious-container .box span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    font-size: 1.5em;
+    background-color: #000;
+    opacity: .8;
+    color: white;
+    
+}
+
+
+
+/* religious-page-end */
+
+
+
+
+/* fun-page-start */
+
+.fun-container .fun-main-part{
+    background-color: salmon;
+    border-radius: 10px;
+    margin: 5vmin 0;
+}
+
+
+.fun-container .fun-main-part{
+    padding: 5vmin;
+    font-family: var(--font-7);
+    font-size: 1.7em;
+    color: slateblue;
+}
+
+.fun-container .fun-main-part h1{
+    font-size: 2.5em;
+    font-family: var(--font-8);
+    color: seagreen;
+}
+
+
+
+.fun-container .box{
+    width: 100%;
+    height: 250px;
+    margin: 15px 0;
+    border: 2px solid royalblue;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.fun-container .box:hover{
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.fun-container .fun-1{
+    background: url('../Images/lavasa.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fun-container .fun-2{
+    background: url('../Images/khadakwasla.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fun-container .fun-3{
+    background: url('../Images/fashion-street.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-4{
+    background: url('../Images/empress-garden.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-5{
+    background: url('../Images/peacock-bay.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-6{
+    background: url('../Images/peshwe-park.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-7{
+    background: url('../Images/krushnai.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-8{
+    background: url('../Images/phoenix.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-9{
+    background: url('../Images/katraj-zoo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-10{
+    background: url('../Images/okayama-garden.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-11{
+    background: url('../Images/camp.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-12{
+    background: url('../Images/appu-ghar.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-13{
+    background: url('../Images/pashan-lake.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-14{
+    background: url('../Images/panshet-dam.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-15{
+    background: url('../Images/laxmi-road.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-16{
+    background: url('../Images/mulshi-dam.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-17{
+    background: url('../Images/sambhaji-garden.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fun-container .fun-18{
+    background: url('../Images/hong-kong-lane.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fun-container .box span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    font-size: 1.5em;
+    background-color: #000;
+    opacity: .8;
+    color: white;
+    
+}
+
+
+
+
+/* fun-page-end */
+
+
+
+
+
+
+/* education-page-start */
+
+
+
+.education-page .table{
+    margin-top: 8vmin;
+    margin-bottom: 8vmin;
+    color: firebrick;
+    font-weight: 500;
+    font-family: var(--font-21);
+    font-size: 1.5em;
+    background-color: #FFB80A;
+    border-radius: 15px;
+
+}
+
+.education-page .table-container h4{
+    color: crimson;
+    font-family: var(--font-23);
+    margin-bottom: 10vmin;    
+}
+
+
+
+
+.edu-intro p{
+    padding: 4vmin;
+    margin-top: 5vmin;
+    font-family: var(--font-25);
+    font-size: 1.5em;
+    color: slateblue;
+    border-top: 5px double slategray;
+    border-bottom: 5px double slategray;
+}
+
+
+.edu-wts h2{
+    margin: 10vmin 0;
+    color: peru;
+    font-family: var(--font-21);
+    font-size: 3em;
+}
+
+
+.edu-wts .row h4{
+    color: olivedrab;
+    font-family: var(--font-19);
+    font-size: 2em;
+    padding-bottom: 3vmin;
+}
+
+
+.edu-wts .row p{
+    color: chocolate;
+    font-family: var(--font-23);
+    padding-bottom: 5vmin;
+}
+
+
+.education-page .sppu-container{
+    font-family: var(--font-25);
+    font-size: 1.2em;
+    color: coral;
+}
+
+.education-page .sppu-container h1{
+    font-weight: bold;
+}
+
+.education-page .sppu-container h1, .education-page .sppu-container p{
+    padding: 5vmin 0;
+}
+
+
+.education-page .top-institutes div{
+    font-family: var(--font-1);
+    padding: 5vmin 0;
+}
+
+.education-page .top-institutes div h2{
+    color: #c85103;
+    padding-bottom: 3vmin;
+}
+
+.education-page .top-institutes div h4{
+    color: #FFB80A;
+}
+
+
+
+
+/* education-page-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* historic-page-end */
