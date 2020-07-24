@@ -209,6 +209,38 @@ header .container .col-md-7 .btn-primary:hover{
 
 
 
+/* corona */
+
+.corona-tracker{
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    font-family: var(--font-9);
+    text-transform: uppercase;
+    word-spacing: 2vmin;
+    color: #f14504;
+}
+
+
+.corona .corona-table{
+    margin: 3vmin 0;
+    font-family: var(--font-23);
+    font-size: 2em;
+    border-radius: 30px;
+    background-color: powderblue;
+    color: firebrick;
+}
+
+.corona .corona-table td{
+    color: darkorange;
+}
+
+
+/* corona */
+
+
+
+
+
 /* section-1 */
 
 .section-1{
