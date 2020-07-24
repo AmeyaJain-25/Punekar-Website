@@ -222,7 +222,7 @@ header .container .col-md-7 .btn-primary:hover{
 
 
 .corona .corona-table{
-    margin: 3vmin 0;
+    margin-top: 3vmin;
     font-family: var(--font-23);
     font-size: 2em;
     border-radius: 30px;
