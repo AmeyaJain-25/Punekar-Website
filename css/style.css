@@ -86,7 +86,7 @@ header a{
     font-family: var(--font-3);
     text-transform: uppercase;
     font-size: 1.5em;
-    color: black;
+    color: #dddddd;
 }
 
 header{
@@ -98,7 +98,7 @@ header{
 .dropdown-content{
     display: none;
     position: absolute;
-    background: peru;
+    background: #ff0000;
     min-width: 160px;
 
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
@@ -107,7 +107,7 @@ header{
 
 
 .dropdown-content a{
-    color: black;
+    color: #dddddd;
     text-align: center;
     padding: 12px 6px;
     text-decoration: none;
@@ -116,8 +116,8 @@ header{
 
 
 .dropdown-content a:hover{
-    background: var(--bggradient);
-    color: white;
+    background: orangered;
+    color: #ffff00;
 }
 
 .dropdown:hover .dropdown-content{
@@ -143,12 +143,12 @@ header .navbar-brand{
 }
 
 header .navbar-brand:hover{
-    color: white;
+    color: #ffff00;
 }
 
 
 header .nav-link:hover{
-    color: white;
+    color: #ffff00;
 }
 
 
@@ -221,8 +221,8 @@ header .container .col-md-7 .btn-primary:hover{
 }
 
 
+
 .corona .corona-table{
-    margin-top: 3vmin;
     font-family: var(--font-23);
     font-size: 2em;
     border-radius: 30px;
@@ -230,9 +230,28 @@ header .container .col-md-7 .btn-primary:hover{
     color: firebrick;
 }
 
+
+
 .corona .corona-table td{
-    color: darkorange;
+    color: #ff0000;
 }
+
+
+.corona-note{
+    color: yellowgreen;
+    font-family: var(--font-23);
+    font-size: 1em;
+    
+}
+
+
+.corona-time{
+    color: #196F3D;
+    font-family: var(--font-3);
+
+}
+
+
 
 
 /* corona */
