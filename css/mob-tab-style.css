@@ -259,10 +259,10 @@
     /* about-page-start */
 
     .about-page div{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
-    .about-page h1{
+    .about-page h1, .about-page h2{
         font-size: 1.5em;
     }
 
@@ -469,7 +469,7 @@
     /* about-page-start */
 
 
-    .about-page h1{
+    .about-page h1, .about-page h2{
         font-size: 1.2em;
     }
 
