@@ -54,7 +54,7 @@
 
     
     main .container-fluid .slider-content .text-content-1{
-        font-size: .8em;
+        font-size: 1em;
         line-height: 3.6vmin;
     }
 
@@ -188,7 +188,7 @@
     }
 
     main .container-fluid .slider-content .text-content-1{
-        font-size: .8em;
+        font-size: .85em;
         line-height: 3vmin;
         
     }
@@ -329,7 +329,7 @@
     }
 
     main .container-fluid .slider-content .text-content-1{
-        font-size: .9em;
+        font-size: .95em;
         line-height: 3.5vmin;
         
         
@@ -429,12 +429,12 @@
 
     main .container-fluid .backgroundImage{
 
-        background-position: -450vmin;
+        background-position: -600vmin;
         height: 2000px;
     }
 
     main .container-fluid .slider-content .text-content-1{
-        font-size: .9em;
+        font-size: .95em;
         line-height: 4.3vmin;
         
         

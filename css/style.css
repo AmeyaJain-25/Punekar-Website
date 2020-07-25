@@ -341,19 +341,26 @@ main .container-fluid .backgroundImage{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    
 }
 
-
+.shivaji-maharaj{
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
 
 
 
 main .container-fluid .slider-content .text-content-1{
     color: whitesmoke;
     font-family: var(--font-7);
-    padding: 4vmin;
-    font-size: 1em;
+    padding: 2vmin 1vmin;
+    font-size: 1.1em;
     line-height: 4vmin;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
+    
+    
 }
 
 
@@ -1498,4 +1505,4 @@ main .eatables .col-lg-7 p{
 
 
 
-/* historic-page-end */
+
