@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: punekar.netlify.app
+Token: 2602a844571e87d884d89bc02b8c30f45728751174d9af0ac23a17dd474be017
